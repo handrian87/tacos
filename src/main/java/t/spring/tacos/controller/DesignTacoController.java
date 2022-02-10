@@ -6,6 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import t.spring.tacos.model.Ingredient;
+import t.spring.tacos.model.Taco;
 
 import java.util.Arrays;
 import java.util.List;
