@@ -7,6 +7,7 @@ import javax.validation.constraints.Digits;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import java.util.Date;
+import java.util.List;
 
 @Data
 public class Order {
@@ -30,4 +31,5 @@ public class Order {
     @Digits(integer=3, fraction=0, message="Invalid CVV")
     private String ccVV;
 
+    private List<Taco> tacos;
 }
